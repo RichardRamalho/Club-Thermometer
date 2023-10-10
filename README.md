@@ -8,16 +8,12 @@ Muito divertido e um tempero à mais para zoar o rival na hora daquela resenha k
 
 💻 Technologies:
 
-#HTML  
-
-#CSS  
-
-#JavaScript  
-
-#DOM  
-
-#Github  
-
+- HTML 
+- CSS  
+- JavaScript  
+- DOM  
+- Github  
+ 
 📧 Contact:  
 
-#richardramalho98.rr@gmail.com
+richardramalho98.rr@gmail.com
