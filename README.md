@@ -1,5 +1,5 @@
 # Club-Thermometer
-Esse projeto pessoal foi desenvolvido com base em meu esporte favorito.
+Esse projeto pessoal foi desenvolvido com base em meu esporte favorito. <br>
 Sua funcionalidade é simplesmente pegar a soma dos campos do form e se com base no resultado, le mostrar uma mensagem sobre o tamanho do clube.
 Muito divertido e um tempero à mais para zoar o rival na hora daquela resenha kkkkkk
 
@@ -8,11 +8,11 @@ Muito divertido e um tempero à mais para zoar o rival na hora daquela resenha k
 
 💻 Technologies:
 
-HTML
-CSS
-JavaScript
-DOM
-Github
+#HTML
+#CSS
+#JavaScript
+#DOM
+#Github
 📧 Contact:
 
-richardramalho98.rr@gmail.com
+#richardramalho98.rr@gmail.com
