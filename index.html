@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Termômetro de Clubes</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+    <script src="./js/script.js" defer type="module"></script>
+    <link
+      rel="shortcut icon"
+      href="https://static.vecteezy.com/system/resources/previews/019/860/394/non_2x/thermometer-icon-colorful-free-png.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="alert-error">
+      <p>Favor preencher todos os campos</p>
+    </div>
+    <div class="container">
+      <main class="card">
+        <div>
+          <form id="myForm" action="">
+            <h1 class="title">Termômetro de Clubes</h1>
+            <div class="input-wrapper">
+                <label for="club">Clube</label>
+                <input type="text" id="club" placeholder="Tabajara FC" />
+              </div>
+            <div class="input-wrapper">
+              <label for="brazilian">Brasileirão</label>
+              <input type="text" id="brazilian" placeholder="1" />
+            </div>
+            <div class="input-wrapper">
+              <label for="brazilCup">Copa do Brasil</label>
+              <input type="text" id="brazilCup" placeholder="2" />
+            </div>
+            <div class="input-wrapper">
+              <label for="liberators">Libertadores</label>
+              <input type="text" id="liberators" placeholder="3" />
+            </div>
+            <div class="input-wrapper">
+              <label for="clubWorldCup">Mundial de Clubes</label>
+              <input type="text" id="clubWorldCup" placeholder="4" />
+            </div>
+            <button type="submit" id="btnTry">
+              Calcular
+            </button>
+          </form>
+        </div>
+      </main>
+    </div>
+    <div class="modal-wrapper">
+      <div class="modal card">
+        <h2 class="title">
+          <button class="close">
+            <img src="./src/img/close.svg" alt="" />
+          </button>
+          <span>Seu clube é grande</span>
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>
